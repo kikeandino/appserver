@@ -19,7 +19,7 @@ hbs.registerHelper('getAnio', () => { return new Date().getFullYear(); });
 
 
 
-app.get('/home', (req, res) => {
+app.get('/', (req, res) => {
     res.render('home', {
         nombre: 'Omar Andino'
 
